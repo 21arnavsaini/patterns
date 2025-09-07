@@ -1,3 +1,7 @@
+<<<<<<< HEAD
+=======
+// Voting and Driving eligibilty code
+>>>>>>> 2a4f49640a57514f1390d0c358f827dbac7506ab
 #include <stdio.h>
 
 int main() {
@@ -18,4 +22,8 @@ int main() {
     }
 
     return 0;
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> 2a4f49640a57514f1390d0c358f827dbac7506ab
