@@ -1,20 +1,20 @@
 //Q15: Write a program to input a character and check whether it is an uppercase alphabet, lowercase alphabet, digit, or special character.
-#include <iostream>
-using namespace std;
+#include <stdio.h>
 
 int main() {
     char ch;
-    cout << "Input a character: ";
-    cin >> ch;
+
+    printf("Enter a character: ");
+    scanf(" %c", &ch);  // Note the space before %c to consume any leftover whitespace
 
     if (ch >= 'A' && ch <= 'Z') {
-        cout << "Uppercase alphabet" << endl;
+        printf("It is an uppercase alphabet.\n");
     } else if (ch >= 'a' && ch <= 'z') {
-        cout << "Lowercase alphabet" << endl;
+        printf("It is a lowercase alphabet.\n");
     } else if (ch >= '0' && ch <= '9') {
-        cout << "Digit" << endl;
+        printf("It is a digit.\n");
     } else {
-        cout << "Special character" << endl;
+        printf("It is a special character.\n");
     }
 
     return 0;
