@@ -1,5 +1,4 @@
 // Voting and Driving eligibilty code
-
 #include <stdio.h>
 
 int main() {
