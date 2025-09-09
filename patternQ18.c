@@ -3,9 +3,9 @@
 int main() {
     int i, j;
     for(i = 0; i < 5; i++) {
-        char ch = 'E' - i;  // Start from E and go backward
+        char ch = 'E' - i;  
         for(j = 0; j <= i; j++) {
-            printf("%c ", ch + j);  // Print increasing letters from ch
+            printf("%c ", ch + j);  
         }
         printf("\n");
     }
